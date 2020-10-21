@@ -1,0 +1,7 @@
+{
+  "name": "sourovroy/wp-plugin-unit-test",
+  "description": "WordPress plugin unit testing basics.",
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  }
+}
