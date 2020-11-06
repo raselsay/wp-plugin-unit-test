@@ -10,8 +10,16 @@
  */
 class User_Info_API_Test extends WP_UnitTestCase {
 
+	/**
+	 * Registered user ID
+	 *
+	 * @var int
+	 */
 	private $user_id;
 
+	/**
+	 * Set up these test cases
+	 */
 	public function setUp() {
 		parent::setUp();
 

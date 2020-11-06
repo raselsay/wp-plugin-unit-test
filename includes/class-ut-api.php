@@ -30,6 +30,7 @@ class UT_API {
 	 * @param string   $path route path.
 	 * @param string   $method route HTTP verb.
 	 * @param callable $callback route callback.
+	 * @param array    $args route callback.
 	 */
 	private function route( $path, $method, $callback, $args = array() ) {
 		register_rest_route(
@@ -72,7 +73,7 @@ class UT_API {
 	}
 
 	/**
-	 * REgister post request endpoint
+	 * Register post request endpoint
 	 *
 	 * @param string   $path route path.
 	 * @param callable $callback route callback.

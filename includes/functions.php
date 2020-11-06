@@ -11,10 +11,9 @@
  * @param integer $user_id User ID.
  * @param array   $data with key phone, city, country.
  *
- * @return void
+ * @return bool
  */
 function ut_set_user_information( $user_id, $data ) {
-
 	if ( ! isset( $data['country'] ) ) {
 		return false;
 	}
